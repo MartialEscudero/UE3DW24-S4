@@ -18,7 +18,7 @@ export class Users {
   public password: string;
 
   @Column()
-  public role: string;
+  public roles: string;
 
   @Column({ type: "timestamp", default: () => "CURRENT_TIMESTAMP"})
   createdAt: Date;

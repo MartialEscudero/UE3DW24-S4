@@ -4,7 +4,7 @@ export class CreateUserDto {
     lastname: string;
     password: string;
     email: string;
-    role: string;
+    roles: string;
     createdAt: Date;
     updatedAt: Date;
 }
