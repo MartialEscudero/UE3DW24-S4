@@ -21,7 +21,8 @@ export class UsersService {
         firstname: createUserDto.firstname,
         lastname: createUserDto.lastname,
         email: createUserDto.email,
-        password: hashpassword
+        password: hashpassword,
+        role: createUserDto.role
       }
     );
   }
